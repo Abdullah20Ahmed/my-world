@@ -24,11 +24,11 @@ content.insert(1, "Nazi Germany")
 content.insert(3, "World War 2")
 content.pop()
 
-print("Content list:", content)
+print(content)
 
 
 sorted_content = sorted(content, reverse=True)
-print("Sorted content:", sorted_content)
+print( sorted_content)
 
 numbers = [1, 11, 3, 3, 3, 4, 5, 9, 7, 48, 9, 10]
 numbers.pop(3)        
@@ -36,9 +36,9 @@ numbers.remove(1)
 numbers.sort()        
 numbers.insert(2, 35) 
 
-print("Count of 3:", numbers.count(3))
-print("Numbers list:", numbers)
+print( numbers.count(3))
+print( numbers)
 
 
 numbers.clear()
-print("After clearing:", numbers)
+print( numbers)
